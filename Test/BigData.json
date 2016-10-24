@@ -1,0 +1,1150 @@
+{
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Fri Oct 14 06:22:41 +0000 2016",
+    "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": [
+            {
+                "id": 1589108532,
+                "id_str": "1589108532",
+                "indices": [
+                    0,
+                    16
+                ],
+                "name": "Nile J\u00f8nes",
+                "screen_name": "yepliketheriver"
+            }
+        ]
+    },
+    "favorite_count": 1,
+    "favorited": false,
+    "geo": null,
+    "id": 786814464511270913,
+    "id_str": "786814464511270913",
+    "in_reply_to_screen_name": "yepliketheriver",
+    "in_reply_to_status_id": 786808588664578048,
+    "in_reply_to_status_id_str": "786808588664578048",
+    "in_reply_to_user_id": 1589108532,
+    "in_reply_to_user_id_str": "1589108532",
+    "is_quote_status": false,
+    "lang": "en",
+    "place": null,
+    "retweet_count": 0,
+    "retweeted": false,
+    "source": "<a href=\"http://mvilla.it/fenix\" rel=\"nofollow\">Fenix for Android</a>",
+    "text": "@yepliketheriver I mean I don't see the problem",
+    "truncated": false,
+    "user": {
+        "contributors_enabled": false,
+        "created_at": "Mon Mar 19 17:43:30 +0000 2012",
+        "default_profile": true,
+        "default_profile_image": false,
+        "description": "Our greatest weakness lies in giving up. The most certain way to succeed is always to try just one more time.",
+        "entities": {
+            "description": {
+                "urls": []
+            },
+            "url": {
+                "urls": [
+                    {
+                        "display_url": "chazlakinger.com",
+                        "expanded_url": "http://chazlakinger.com",
+                        "indices": [
+                            0,
+                            23
+                        ],
+                        "url": "https://t.co/2y7BDhiHQn"
+                    }
+                ]
+            }
+        },
+        "favourites_count": 2215,
+        "follow_request_sent": false,
+        "followers_count": 336,
+        "following": true,
+        "friends_count": 87,
+        "geo_enabled": false,
+        "has_extended_profile": true,
+        "id": 529568682,
+        "id_str": "529568682",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": "en",
+        "listed_count": 3,
+        "location": "chaz@chazlakinger.com",
+        "name": "Spooky CH/\\Z",
+        "notifications": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/529568682/1469505748",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/746469709625753600/N36VXoo0_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/746469709625753600/N36VXoo0_normal.jpg",
+        "profile_link_color": "0084B4",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "protected": false,
+        "screen_name": "fanchazstic",
+        "statuses_count": 9262,
+        "time_zone": "Central Time (US & Canada)",
+        "translator_type": "none",
+        "url": "https://t.co/2y7BDhiHQn",
+        "utc_offset": -18000,
+        "verified": false
+    }
+}{
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Fri Oct 14 05:52:58 +0000 2016",
+    "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": []
+    },
+    "favorite_count": 2,
+    "favorited": false,
+    "geo": null,
+    "id": 786806987929419780,
+    "id_str": "786806987929419780",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "en",
+    "place": null,
+    "retweet_count": 0,
+    "retweeted": false,
+    "source": "<a href=\"http://mvilla.it/fenix\" rel=\"nofollow\">Fenix for Android</a>",
+    "text": "If anyone wants a text file with the first 1.5 million prime numbers I got you hmu",
+    "truncated": false,
+    "user": {
+        "contributors_enabled": false,
+        "created_at": "Mon Mar 19 17:43:30 +0000 2012",
+        "default_profile": true,
+        "default_profile_image": false,
+        "description": "Our greatest weakness lies in giving up. The most certain way to succeed is always to try just one more time.",
+        "entities": {
+            "description": {
+                "urls": []
+            },
+            "url": {
+                "urls": [
+                    {
+                        "display_url": "chazlakinger.com",
+                        "expanded_url": "http://chazlakinger.com",
+                        "indices": [
+                            0,
+                            23
+                        ],
+                        "url": "https://t.co/2y7BDhiHQn"
+                    }
+                ]
+            }
+        },
+        "favourites_count": 2215,
+        "follow_request_sent": false,
+        "followers_count": 336,
+        "following": true,
+        "friends_count": 87,
+        "geo_enabled": false,
+        "has_extended_profile": true,
+        "id": 529568682,
+        "id_str": "529568682",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": "en",
+        "listed_count": 3,
+        "location": "chaz@chazlakinger.com",
+        "name": "Spooky CH/\\Z",
+        "notifications": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/529568682/1469505748",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/746469709625753600/N36VXoo0_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/746469709625753600/N36VXoo0_normal.jpg",
+        "profile_link_color": "0084B4",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "protected": false,
+        "screen_name": "fanchazstic",
+        "statuses_count": 9262,
+        "time_zone": "Central Time (US & Canada)",
+        "translator_type": "none",
+        "url": "https://t.co/2y7BDhiHQn",
+        "utc_offset": -18000,
+        "verified": false
+    }
+}{
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Fri Oct 14 05:50:27 +0000 2016",
+    "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": []
+    },
+    "favorite_count": 3,
+    "favorited": false,
+    "geo": null,
+    "id": 786806353704595456,
+    "id_str": "786806353704595456",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "en",
+    "place": null,
+    "retweet_count": 1,
+    "retweeted": false,
+    "source": "<a href=\"http://mvilla.it/fenix\" rel=\"nofollow\">Fenix for Android</a>",
+    "text": "I just really appreciate how well even old T\u00d8P songs are mastered",
+    "truncated": false,
+    "user": {
+        "contributors_enabled": false,
+        "created_at": "Mon Mar 19 17:43:30 +0000 2012",
+        "default_profile": true,
+        "default_profile_image": false,
+        "description": "Our greatest weakness lies in giving up. The most certain way to succeed is always to try just one more time.",
+        "entities": {
+            "description": {
+                "urls": []
+            },
+            "url": {
+                "urls": [
+                    {
+                        "display_url": "chazlakinger.com",
+                        "expanded_url": "http://chazlakinger.com",
+                        "indices": [
+                            0,
+                            23
+                        ],
+                        "url": "https://t.co/2y7BDhiHQn"
+                    }
+                ]
+            }
+        },
+        "favourites_count": 2215,
+        "follow_request_sent": false,
+        "followers_count": 336,
+        "following": true,
+        "friends_count": 87,
+        "geo_enabled": false,
+        "has_extended_profile": true,
+        "id": 529568682,
+        "id_str": "529568682",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": "en",
+        "listed_count": 3,
+        "location": "chaz@chazlakinger.com",
+        "name": "Spooky CH/\\Z",
+        "notifications": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/529568682/1469505748",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/746469709625753600/N36VXoo0_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/746469709625753600/N36VXoo0_normal.jpg",
+        "profile_link_color": "0084B4",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "protected": false,
+        "screen_name": "fanchazstic",
+        "statuses_count": 9262,
+        "time_zone": "Central Time (US & Canada)",
+        "translator_type": "none",
+        "url": "https://t.co/2y7BDhiHQn",
+        "utc_offset": -18000,
+        "verified": false
+    }
+}{
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Fri Oct 14 05:08:01 +0000 2016",
+    "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": []
+    },
+    "favorite_count": 0,
+    "favorited": false,
+    "geo": null,
+    "id": 786795675933474817,
+    "id_str": "786795675933474817",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "en",
+    "place": null,
+    "retweet_count": 0,
+    "retweeted": false,
+    "source": "<a href=\"http://mvilla.it/fenix\" rel=\"nofollow\">Fenix for Android</a>",
+    "text": "How can you possibly enjoy music when it's being played so loudly that the speakers distort or the amp clips",
+    "truncated": false,
+    "user": {
+        "contributors_enabled": false,
+        "created_at": "Mon Mar 19 17:43:30 +0000 2012",
+        "default_profile": true,
+        "default_profile_image": false,
+        "description": "Our greatest weakness lies in giving up. The most certain way to succeed is always to try just one more time.",
+        "entities": {
+            "description": {
+                "urls": []
+            },
+            "url": {
+                "urls": [
+                    {
+                        "display_url": "chazlakinger.com",
+                        "expanded_url": "http://chazlakinger.com",
+                        "indices": [
+                            0,
+                            23
+                        ],
+                        "url": "https://t.co/2y7BDhiHQn"
+                    }
+                ]
+            }
+        },
+        "favourites_count": 2215,
+        "follow_request_sent": false,
+        "followers_count": 336,
+        "following": true,
+        "friends_count": 87,
+        "geo_enabled": false,
+        "has_extended_profile": true,
+        "id": 529568682,
+        "id_str": "529568682",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": "en",
+        "listed_count": 3,
+        "location": "chaz@chazlakinger.com",
+        "name": "Spooky CH/\\Z",
+        "notifications": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/529568682/1469505748",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/746469709625753600/N36VXoo0_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/746469709625753600/N36VXoo0_normal.jpg",
+        "profile_link_color": "0084B4",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "protected": false,
+        "screen_name": "fanchazstic",
+        "statuses_count": 9262,
+        "time_zone": "Central Time (US & Canada)",
+        "translator_type": "none",
+        "url": "https://t.co/2y7BDhiHQn",
+        "utc_offset": -18000,
+        "verified": false
+    }
+}{
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Thu Oct 13 20:52:57 +0000 2016",
+    "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": []
+    },
+    "favorite_count": 0,
+    "favorited": false,
+    "geo": null,
+    "id": 786671089149542401,
+    "id_str": "786671089149542401",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "en",
+    "place": null,
+    "retweet_count": 0,
+    "retweeted": false,
+    "source": "<a href=\"http://mvilla.it/fenix\" rel=\"nofollow\">Fenix for Android</a>",
+    "text": "Listening to flac files on my new Sennheiser HD 598's is absolutely beautiful",
+    "truncated": false,
+    "user": {
+        "contributors_enabled": false,
+        "created_at": "Mon Mar 19 17:43:30 +0000 2012",
+        "default_profile": true,
+        "default_profile_image": false,
+        "description": "Our greatest weakness lies in giving up. The most certain way to succeed is always to try just one more time.",
+        "entities": {
+            "description": {
+                "urls": []
+            },
+            "url": {
+                "urls": [
+                    {
+                        "display_url": "chazlakinger.com",
+                        "expanded_url": "http://chazlakinger.com",
+                        "indices": [
+                            0,
+                            23
+                        ],
+                        "url": "https://t.co/2y7BDhiHQn"
+                    }
+                ]
+            }
+        },
+        "favourites_count": 2215,
+        "follow_request_sent": false,
+        "followers_count": 336,
+        "following": true,
+        "friends_count": 87,
+        "geo_enabled": false,
+        "has_extended_profile": true,
+        "id": 529568682,
+        "id_str": "529568682",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": "en",
+        "listed_count": 3,
+        "location": "chaz@chazlakinger.com",
+        "name": "Spooky CH/\\Z",
+        "notifications": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/529568682/1469505748",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/746469709625753600/N36VXoo0_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/746469709625753600/N36VXoo0_normal.jpg",
+        "profile_link_color": "0084B4",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "protected": false,
+        "screen_name": "fanchazstic",
+        "statuses_count": 9262,
+        "time_zone": "Central Time (US & Canada)",
+        "translator_type": "none",
+        "url": "https://t.co/2y7BDhiHQn",
+        "utc_offset": -18000,
+        "verified": false
+    }
+}{
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Thu Oct 13 14:02:58 +0000 2016",
+    "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": [
+            {
+                "id": 564919357,
+                "id_str": "564919357",
+                "indices": [
+                    3,
+                    15
+                ],
+                "name": "I Am Devloper",
+                "screen_name": "iamdevloper"
+            }
+        ]
+    },
+    "favorite_count": 0,
+    "favorited": false,
+    "geo": null,
+    "id": 786567910743343105,
+    "id_str": "786567910743343105",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "en",
+    "place": null,
+    "retweet_count": 328,
+    "retweeted": false,
+    "retweeted_status": {
+        "contributors": null,
+        "coordinates": null,
+        "created_at": "Thu Oct 13 11:39:47 +0000 2016",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "urls": [],
+            "user_mentions": []
+        },
+        "favorite_count": 676,
+        "favorited": false,
+        "geo": null,
+        "id": 786531879721791488,
+        "id_str": "786531879721791488",
+        "in_reply_to_screen_name": null,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "is_quote_status": false,
+        "lang": "en",
+        "place": null,
+        "retweet_count": 328,
+        "retweeted": false,
+        "source": "<a href=\"http://tapbots.com/tweetbot\" rel=\"nofollow\">Tweetbot for i\u039fS</a>",
+        "text": "\u201cDid that work?\u201d\n\n* 2 hours later *\n\n\u201cNo.\u201d\n\nDNS.",
+        "truncated": false,
+        "user": {
+            "contributors_enabled": false,
+            "created_at": "Fri Apr 27 21:06:51 +0000 2012",
+            "default_profile": false,
+            "default_profile_image": false,
+            "description": "These views are also the opinions of my employers, any problems, speak to their legal team. *puts headphones back in*",
+            "entities": {
+                "description": {
+                    "urls": []
+                },
+                "url": {
+                    "urls": [
+                        {
+                            "display_url": "urbandictionary.com/define.php?ter\u2026",
+                            "expanded_url": "http://www.urbandictionary.com/define.php?term=RTFM",
+                            "indices": [
+                                0,
+                                20
+                            ],
+                            "url": "http://t.co/Hcd0PBjb"
+                        }
+                    ]
+                }
+            },
+            "favourites_count": 0,
+            "follow_request_sent": false,
+            "followers_count": 168176,
+            "following": false,
+            "friends_count": 0,
+            "geo_enabled": false,
+            "has_extended_profile": false,
+            "id": 564919357,
+            "id_str": "564919357",
+            "is_translation_enabled": false,
+            "is_translator": false,
+            "lang": "en",
+            "listed_count": 3350,
+            "location": "Localhost",
+            "name": "I Am Devloper",
+            "notifications": false,
+            "profile_background_color": "131516",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme14/bg.gif",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme14/bg.gif",
+            "profile_background_tile": true,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/477397164453527552/uh2w1u1o_normal.jpeg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/477397164453527552/uh2w1u1o_normal.jpeg",
+            "profile_link_color": "009999",
+            "profile_sidebar_border_color": "EEEEEE",
+            "profile_sidebar_fill_color": "EFEFEF",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "protected": false,
+            "screen_name": "iamdevloper",
+            "statuses_count": 3984,
+            "time_zone": null,
+            "translator_type": "none",
+            "url": "http://t.co/Hcd0PBjb",
+            "utc_offset": null,
+            "verified": false
+        }
+    },
+    "source": "<a href=\"http://mvilla.it/fenix\" rel=\"nofollow\">Fenix for Android</a>",
+    "text": "RT @iamdevloper: \u201cDid that work?\u201d\n\n* 2 hours later *\n\n\u201cNo.\u201d\n\nDNS.",
+    "truncated": false,
+    "user": {
+        "contributors_enabled": false,
+        "created_at": "Mon Mar 19 17:43:30 +0000 2012",
+        "default_profile": true,
+        "default_profile_image": false,
+        "description": "Our greatest weakness lies in giving up. The most certain way to succeed is always to try just one more time.",
+        "entities": {
+            "description": {
+                "urls": []
+            },
+            "url": {
+                "urls": [
+                    {
+                        "display_url": "chazlakinger.com",
+                        "expanded_url": "http://chazlakinger.com",
+                        "indices": [
+                            0,
+                            23
+                        ],
+                        "url": "https://t.co/2y7BDhiHQn"
+                    }
+                ]
+            }
+        },
+        "favourites_count": 2215,
+        "follow_request_sent": false,
+        "followers_count": 336,
+        "following": true,
+        "friends_count": 87,
+        "geo_enabled": false,
+        "has_extended_profile": true,
+        "id": 529568682,
+        "id_str": "529568682",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": "en",
+        "listed_count": 3,
+        "location": "chaz@chazlakinger.com",
+        "name": "Spooky CH/\\Z",
+        "notifications": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/529568682/1469505748",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/746469709625753600/N36VXoo0_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/746469709625753600/N36VXoo0_normal.jpg",
+        "profile_link_color": "0084B4",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "protected": false,
+        "screen_name": "fanchazstic",
+        "statuses_count": 9262,
+        "time_zone": "Central Time (US & Canada)",
+        "translator_type": "none",
+        "url": "https://t.co/2y7BDhiHQn",
+        "utc_offset": -18000,
+        "verified": false
+    }
+}{
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Thu Oct 13 05:59:08 +0000 2016",
+    "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": []
+    },
+    "favorite_count": 3,
+    "favorited": false,
+    "geo": null,
+    "id": 786446151071305728,
+    "id_str": "786446151071305728",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "en",
+    "place": null,
+    "retweet_count": 1,
+    "retweeted": false,
+    "source": "<a href=\"http://mvilla.it/fenix\" rel=\"nofollow\">Fenix for Android</a>",
+    "text": "Because hurting people is what I do best",
+    "truncated": false,
+    "user": {
+        "contributors_enabled": false,
+        "created_at": "Mon Mar 19 17:43:30 +0000 2012",
+        "default_profile": true,
+        "default_profile_image": false,
+        "description": "Our greatest weakness lies in giving up. The most certain way to succeed is always to try just one more time.",
+        "entities": {
+            "description": {
+                "urls": []
+            },
+            "url": {
+                "urls": [
+                    {
+                        "display_url": "chazlakinger.com",
+                        "expanded_url": "http://chazlakinger.com",
+                        "indices": [
+                            0,
+                            23
+                        ],
+                        "url": "https://t.co/2y7BDhiHQn"
+                    }
+                ]
+            }
+        },
+        "favourites_count": 2215,
+        "follow_request_sent": false,
+        "followers_count": 336,
+        "following": true,
+        "friends_count": 87,
+        "geo_enabled": false,
+        "has_extended_profile": true,
+        "id": 529568682,
+        "id_str": "529568682",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": "en",
+        "listed_count": 3,
+        "location": "chaz@chazlakinger.com",
+        "name": "Spooky CH/\\Z",
+        "notifications": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/529568682/1469505748",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/746469709625753600/N36VXoo0_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/746469709625753600/N36VXoo0_normal.jpg",
+        "profile_link_color": "0084B4",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "protected": false,
+        "screen_name": "fanchazstic",
+        "statuses_count": 9262,
+        "time_zone": "Central Time (US & Canada)",
+        "translator_type": "none",
+        "url": "https://t.co/2y7BDhiHQn",
+        "utc_offset": -18000,
+        "verified": false
+    }
+}{
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Thu Oct 13 05:21:01 +0000 2016",
+    "entities": {
+        "hashtags": [
+            {
+                "indices": [
+                    75,
+                    80
+                ],
+                "text": "AMAs"
+            }
+        ],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": [
+            {
+                "id": 18996905,
+                "id_str": "18996905",
+                "indices": [
+                    3,
+                    17
+                ],
+                "name": "Fueled By Ramen",
+                "screen_name": "FueledByRamen"
+            },
+            {
+                "id": 59325073,
+                "id_str": "59325073",
+                "indices": [
+                    21,
+                    37
+                ],
+                "name": "twenty one pilots",
+                "screen_name": "twentyonepilots"
+            }
+        ]
+    },
+    "favorite_count": 0,
+    "favorited": false,
+    "geo": null,
+    "id": 786436556655431680,
+    "id_str": "786436556655431680",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "en",
+    "place": null,
+    "retweet_count": 1753,
+    "retweeted": false,
+    "retweeted_status": {
+        "contributors": null,
+        "coordinates": null,
+        "created_at": "Wed Oct 12 23:14:34 +0000 2016",
+        "entities": {
+            "hashtags": [
+                {
+                    "indices": [
+                        56,
+                        61
+                    ],
+                    "text": "AMAs"
+                }
+            ],
+            "symbols": [],
+            "urls": [],
+            "user_mentions": [
+                {
+                    "id": 59325073,
+                    "id_str": "59325073",
+                    "indices": [
+                        2,
+                        18
+                    ],
+                    "name": "twenty one pilots",
+                    "screen_name": "twentyonepilots"
+                }
+            ]
+        },
+        "favorite_count": 1519,
+        "favorited": false,
+        "geo": null,
+        "id": 786344340322787332,
+        "id_str": "786344340322787332",
+        "in_reply_to_screen_name": null,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "is_quote_status": false,
+        "lang": "en",
+        "place": null,
+        "retweet_count": 1753,
+        "retweeted": false,
+        "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+        "text": ". @twentyonepilots + Favorite Duo or Group - Pop/Rock + #AMAs",
+        "truncated": false,
+        "user": {
+            "contributors_enabled": false,
+            "created_at": "Wed Jan 14 21:32:04 +0000 2009",
+            "default_profile": false,
+            "default_profile_image": false,
+            "description": "Download @SWMRS album DRIVE NORTH!\nhttps://t.co/kAob33iSDE",
+            "entities": {
+                "description": {
+                    "urls": [
+                        {
+                            "display_url": "flyt.it/DriveNorth",
+                            "expanded_url": "http://flyt.it/DriveNorth",
+                            "indices": [
+                                35,
+                                58
+                            ],
+                            "url": "https://t.co/kAob33iSDE"
+                        }
+                    ]
+                },
+                "url": {
+                    "urls": [
+                        {
+                            "display_url": "fueledbyramen.com",
+                            "expanded_url": "http://fueledbyramen.com",
+                            "indices": [
+                                0,
+                                23
+                            ],
+                            "url": "https://t.co/UhTmkm9v1w"
+                        }
+                    ]
+                }
+            },
+            "favourites_count": 1464,
+            "follow_request_sent": false,
+            "followers_count": 239563,
+            "following": false,
+            "friends_count": 76,
+            "geo_enabled": false,
+            "has_extended_profile": false,
+            "id": 18996905,
+            "id_str": "18996905",
+            "is_translation_enabled": false,
+            "is_translator": false,
+            "lang": "en",
+            "listed_count": 1885,
+            "location": "New York, NY",
+            "name": "Fueled By Ramen",
+            "notifications": false,
+            "profile_background_color": "FFFFFF",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme9/bg.gif",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme9/bg.gif",
+            "profile_background_tile": false,
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/18996905/1476421589",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/583460024640483329/s5NLDeIO_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/583460024640483329/s5NLDeIO_normal.jpg",
+            "profile_link_color": "4D4D4D",
+            "profile_sidebar_border_color": "FFFFFF",
+            "profile_sidebar_fill_color": "252429",
+            "profile_text_color": "666666",
+            "profile_use_background_image": false,
+            "protected": false,
+            "screen_name": "FueledByRamen",
+            "statuses_count": 13046,
+            "time_zone": "Eastern Time (US & Canada)",
+            "translator_type": "none",
+            "url": "https://t.co/UhTmkm9v1w",
+            "utc_offset": -14400,
+            "verified": true
+        }
+    },
+    "source": "<a href=\"http://mvilla.it/fenix\" rel=\"nofollow\">Fenix for Android</a>",
+    "text": "RT @FueledByRamen: . @twentyonepilots + Favorite Duo or Group - Pop/Rock + #AMAs",
+    "truncated": false,
+    "user": {
+        "contributors_enabled": false,
+        "created_at": "Mon Mar 19 17:43:30 +0000 2012",
+        "default_profile": true,
+        "default_profile_image": false,
+        "description": "Our greatest weakness lies in giving up. The most certain way to succeed is always to try just one more time.",
+        "entities": {
+            "description": {
+                "urls": []
+            },
+            "url": {
+                "urls": [
+                    {
+                        "display_url": "chazlakinger.com",
+                        "expanded_url": "http://chazlakinger.com",
+                        "indices": [
+                            0,
+                            23
+                        ],
+                        "url": "https://t.co/2y7BDhiHQn"
+                    }
+                ]
+            }
+        },
+        "favourites_count": 2215,
+        "follow_request_sent": false,
+        "followers_count": 336,
+        "following": true,
+        "friends_count": 87,
+        "geo_enabled": false,
+        "has_extended_profile": true,
+        "id": 529568682,
+        "id_str": "529568682",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": "en",
+        "listed_count": 3,
+        "location": "chaz@chazlakinger.com",
+        "name": "Spooky CH/\\Z",
+        "notifications": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/529568682/1469505748",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/746469709625753600/N36VXoo0_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/746469709625753600/N36VXoo0_normal.jpg",
+        "profile_link_color": "0084B4",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "protected": false,
+        "screen_name": "fanchazstic",
+        "statuses_count": 9262,
+        "time_zone": "Central Time (US & Canada)",
+        "translator_type": "none",
+        "url": "https://t.co/2y7BDhiHQn",
+        "utc_offset": -18000,
+        "verified": false
+    }
+}{
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Wed Oct 12 23:33:05 +0000 2016",
+    "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": []
+    },
+    "favorite_count": 1,
+    "favorited": false,
+    "geo": null,
+    "id": 786349000009981954,
+    "id_str": "786349000009981954",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "en",
+    "place": null,
+    "retweet_count": 0,
+    "retweeted": false,
+    "source": "<a href=\"http://mvilla.it/fenix\" rel=\"nofollow\">Fenix for Android</a>",
+    "text": "New Two Door Cinema Club album coming out Friday. I can't contain my excitement",
+    "truncated": false,
+    "user": {
+        "contributors_enabled": false,
+        "created_at": "Mon Mar 19 17:43:30 +0000 2012",
+        "default_profile": true,
+        "default_profile_image": false,
+        "description": "Our greatest weakness lies in giving up. The most certain way to succeed is always to try just one more time.",
+        "entities": {
+            "description": {
+                "urls": []
+            },
+            "url": {
+                "urls": [
+                    {
+                        "display_url": "chazlakinger.com",
+                        "expanded_url": "http://chazlakinger.com",
+                        "indices": [
+                            0,
+                            23
+                        ],
+                        "url": "https://t.co/2y7BDhiHQn"
+                    }
+                ]
+            }
+        },
+        "favourites_count": 2215,
+        "follow_request_sent": false,
+        "followers_count": 336,
+        "following": true,
+        "friends_count": 87,
+        "geo_enabled": false,
+        "has_extended_profile": true,
+        "id": 529568682,
+        "id_str": "529568682",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": "en",
+        "listed_count": 3,
+        "location": "chaz@chazlakinger.com",
+        "name": "Spooky CH/\\Z",
+        "notifications": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/529568682/1469505748",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/746469709625753600/N36VXoo0_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/746469709625753600/N36VXoo0_normal.jpg",
+        "profile_link_color": "0084B4",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "protected": false,
+        "screen_name": "fanchazstic",
+        "statuses_count": 9262,
+        "time_zone": "Central Time (US & Canada)",
+        "translator_type": "none",
+        "url": "https://t.co/2y7BDhiHQn",
+        "utc_offset": -18000,
+        "verified": false
+    }
+}{
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Wed Oct 12 23:30:25 +0000 2016",
+    "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": []
+    },
+    "favorite_count": 3,
+    "favorited": false,
+    "geo": null,
+    "id": 786348326694244352,
+    "id_str": "786348326694244352",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "en",
+    "place": null,
+    "retweet_count": 1,
+    "retweeted": false,
+    "source": "<a href=\"http://mvilla.it/fenix\" rel=\"nofollow\">Fenix for Android</a>",
+    "text": "May or may not have spent an hour at Walmart and came out with a bunch of nerf guns",
+    "truncated": false,
+    "user": {
+        "contributors_enabled": false,
+        "created_at": "Mon Mar 19 17:43:30 +0000 2012",
+        "default_profile": true,
+        "default_profile_image": false,
+        "description": "Our greatest weakness lies in giving up. The most certain way to succeed is always to try just one more time.",
+        "entities": {
+            "description": {
+                "urls": []
+            },
+            "url": {
+                "urls": [
+                    {
+                        "display_url": "chazlakinger.com",
+                        "expanded_url": "http://chazlakinger.com",
+                        "indices": [
+                            0,
+                            23
+                        ],
+                        "url": "https://t.co/2y7BDhiHQn"
+                    }
+                ]
+            }
+        },
+        "favourites_count": 2215,
+        "follow_request_sent": false,
+        "followers_count": 336,
+        "following": true,
+        "friends_count": 87,
+        "geo_enabled": false,
+        "has_extended_profile": true,
+        "id": 529568682,
+        "id_str": "529568682",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": "en",
+        "listed_count": 3,
+        "location": "chaz@chazlakinger.com",
+        "name": "Spooky CH/\\Z",
+        "notifications": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/529568682/1469505748",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/746469709625753600/N36VXoo0_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/746469709625753600/N36VXoo0_normal.jpg",
+        "profile_link_color": "0084B4",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "protected": false,
+        "screen_name": "fanchazstic",
+        "statuses_count": 9262,
+        "time_zone": "Central Time (US & Canada)",
+        "translator_type": "none",
+        "url": "https://t.co/2y7BDhiHQn",
+        "utc_offset": -18000,
+        "verified": false
+    }
+}
