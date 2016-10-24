@@ -28,10 +28,10 @@ plot.show()
 '''
 def make_edge(main, list):
 	for index in range(len(list)):
-		graph.add_edge(main, list[index])
+		graph.add_edge(main, list[index], weight=5)
 
 def draw_graph():
-	pos = nx.spring_layout(graph)
+	pos = nx.spring_layout(graph, scale=2)
 	nx.draw(graph, pos, node_size=200, alpha=0.5, node_color="blue", with_labels=True)
 	plot.axis('off')
 	plot.show()
@@ -48,11 +48,13 @@ def make_graph():
 	graph = nx.Graph()
 
 def get_names(name, cwd):
-	if(os.getcwd() != cwd):
+	if(cwd == 1):
+		asdf = 1
+	else:
 		os.chdir(cwd)
 		os.chdir(name)
 	top_friends = []
-	with open(name + '.csv','r') as fh:
+	with open(name + 'Sorted.csv','r') as fh:
 		reader = csv.reader(fh, delimiter = ',')
 		i = 0
 		for row in reader:
@@ -65,12 +67,20 @@ def get_names(name, cwd):
 def main(argv):
 	user_name = sys.argv[1]
 	os.chdir(user_name)
-	cwd = os.getcwd()
+	cwd = 1
 	top_names = get_names(user_name, cwd)
+	main_list = top_names
+	cwd = os.getcwd()
 	make_graph()
 	make_node(user_name)
 	make_nodes_from_list(top_names)
 	make_edge(user_name, top_names)
+	
+	for index in range(len(main_list)):
+		top_names = get_names(main_list[index], cwd)
+		make_nodes_from_list(top_names)
+		make_edge(main_list[index], top_names)
+		
 	draw_graph()
 
 

@@ -2,6 +2,7 @@ import tweepy
 import json
 import sys
 import csv
+import time
 import os
 from tweepy import OAuthHandler
  
@@ -72,6 +73,7 @@ def get_mentions(x, name):
 		tweet = tweet.entities
 		for each in tweet["user_mentions"]:
 			mentions.append(each["screen_name"])
+		time.sleep(5)
 	return mentions
 
 
