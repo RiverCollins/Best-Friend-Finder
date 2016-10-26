@@ -73,7 +73,8 @@ def get_mentions(x, name):
 		tweet = tweet.entities
 		for each in tweet["user_mentions"]:
 			mentions.append(each["screen_name"])
-		time.sleep(5)
+		time.sleep(10)
+		print('Got Tweet!')
 	return mentions
 
 
