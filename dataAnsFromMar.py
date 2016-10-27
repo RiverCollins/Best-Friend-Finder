@@ -1,6 +1,7 @@
 #Gets 10 tweets from user fanchazstic
 #Saves each tweet into its own file
 import tweepy
+import os
 import json
 import simplejson
 
@@ -19,6 +20,8 @@ api = tweepy.API(auth)
 
 #puts json data from tweet into json file
 def make_json_file(number, tweet):
+	if(os.path.exists('ChazTweets') != True):
+		os.mkdir('ChazTweets')
 	file_name = ('ChazTweets\data' + str(asdf) +'.json')
 	file = open(file_name, 'w')
 	file.close()
@@ -40,7 +43,7 @@ asdf = 0
 user = api.get_user(screen_name = 'fanchazstic')
 
 
-for tweet in tweepy.Cursor(api.user_timeline, id=user.id).items(10):
+for tweet in tweepy.Cursor(api.user_timeline, id=user.id).items(1):
     make_json_file(asdf, tweet._json)
     asdf = asdf + 1
 

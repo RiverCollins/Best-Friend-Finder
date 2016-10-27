@@ -2,9 +2,9 @@ import tweepy
 import json
 from tweepy import OAuthHandler
  
-consumer_key = 'T0it6wF6VyA7nXxdpDIGNAB0z'
-consumer_secret = 'ALsd1wd7VXnCOlgfaIchd9LkUC7CQeeuB0JxcrdwNkrjrh1fT9'
-access_token = '360929924-dUZHb1IGudb8bvgvjNW2sdjnqWg1QGo2hiwmC2wI'
+consumer_key = '	IAb0idmT0TLgwpJCciyLj7Vxh'
+consumer_secret = 'xIZSEjkCHmF6hZeGawAb2cTBnI3H9SofNozNGJZIcLtM76hbxZ'
+access_token = '	360929924-qNxVR14UKuPebEn5UtTFjQrPV0liIwtDNoZse7N5'
 access_secret = 'pmbN8bKm4mM3JA6pRjGmnKLNRqyB92gCpA7PBKORjHr8q'
  
 auth = OAuthHandler(consumer_key, consumer_secret)

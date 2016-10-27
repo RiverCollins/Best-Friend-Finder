@@ -17,7 +17,6 @@ auth.set_access_token(access_token, access_secret)
 api = tweepy.API(auth)
 
 
-
 def top_friends(name, num_fri):
 	friends = []
 	with open(name + 'Sorted.csv' , 'r') as fh:
@@ -64,17 +63,37 @@ def get_friends(x, name):
 	for friend in tweepy.Cursor(api.friends, id=name).items(x):
 		friends(friend._json)
 
+def make_json_file(number, tweet, cwd):
+	file_name = (cwd + '\\' + str(number) +'.json')
+	file = open(file_name, 'w')
+	file.close()
+	process_or_store(tweet, file_name)
+
+def process_or_store(tweet, file_name):
+	#print(json.dumps(tweet))
+	print(asdf)
+	jsondata = simplejson.dumps(tweet, indent=4, skipkeys=True, sort_keys=True)
+	fd = open(file_name, 'w')
+	fd.write(jsondata)
+	fd.close()
+
 #sends each tweet to the mentions_name function in json format
-def get_mentions(x, name):
+def get_mentions(x, name, cwd):
 	mentions = []
+	i = 0
+	saveToDir = cwd + '\\' + name
+	if(os.path.exists(saveToDir) != True):
+		os.mkdir(saveToDir)
 	for tweet in tweepy.Cursor(api.user_timeline, id = name).items(x):
 		#mentions_name(tweet.entities)
-		fullTweet = tweet
+		fullTweet = (tweet._json)
+		make_json_file(i, fullTweet, saveToDir)
 		tweet = tweet.entities
 		for each in tweet["user_mentions"]:
 			mentions.append(each["screen_name"])
-		time.sleep(10)
+		time.sleep(5)
 		print('Got Tweet!')
+		i = i + 1
 	return mentions
 
 
@@ -96,7 +115,7 @@ def write_to_file_freq_of_mentions(name, mentions):
 	men_freq = []
 	men_freq = freq(mentions)
 	used = []
-	os.mkdir(name)
+	#os.mkdir(name)
 	os.chdir(name)
 	f = open(name + '.csv' , 'w', newline = '')
 	try:
@@ -126,7 +145,7 @@ def get_info_of_mentons(user_name, number_of_tweets, cwd):
 	write_to_file_sorted(user_name)
 	print('-------------------')
 
-#python friendMapping.py numberOfTweetsToGoThrou TwitterName
+#python friendMapping.py TwitterName numberOfTweetsToGoThrou
 def main(argv):
 	number_of_tweets = int(sys.argv[2])
 	user_name = sys.argv[1]
