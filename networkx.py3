@@ -58,7 +58,7 @@ def get_names(name, cwd):
 		reader = csv.reader(fh, delimiter = ',')
 		i = 0
 		for row in reader:
-			if(i >= 5):
+			if(i >= 4):
 				break;
 			top_friends.append(row[0])
 			i = i + 1

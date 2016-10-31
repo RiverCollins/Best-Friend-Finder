@@ -3,6 +3,7 @@ import json
 import sys
 import csv
 import time
+import simplejson
 import os
 from tweepy import OAuthHandler
  
@@ -71,7 +72,6 @@ def make_json_file(number, tweet, cwd):
 
 def process_or_store(tweet, file_name):
 	#print(json.dumps(tweet))
-	print(asdf)
 	jsondata = simplejson.dumps(tweet, indent=4, skipkeys=True, sort_keys=True)
 	fd = open(file_name, 'w')
 	fd.write(jsondata)
@@ -81,18 +81,19 @@ def process_or_store(tweet, file_name):
 def get_mentions(x, name, cwd):
 	mentions = []
 	i = 0
-	saveToDir = cwd + '\\' + name
-	if(os.path.exists(saveToDir) != True):
-		os.mkdir(saveToDir)
+	#saveToDir = cwd + '\\' + name
+	#print(saveToDir)
+	if(os.path.exists(cwd)!= True):
+		os.mkdir(cwd)
 	for tweet in tweepy.Cursor(api.user_timeline, id = name).items(x):
 		#mentions_name(tweet.entities)
 		fullTweet = (tweet._json)
-		make_json_file(i, fullTweet, saveToDir)
+		make_json_file(i, fullTweet, cwd)
 		tweet = tweet.entities
 		for each in tweet["user_mentions"]:
 			mentions.append(each["screen_name"])
 		time.sleep(5)
-		print('Got Tweet!')
+		print(str(i) + ' Got Tweet!')
 		i = i + 1
 	return mentions
 
@@ -116,7 +117,7 @@ def write_to_file_freq_of_mentions(name, mentions):
 	men_freq = freq(mentions)
 	used = []
 	#os.mkdir(name)
-	os.chdir(name)
+	#os.chdir(name)
 	f = open(name + '.csv' , 'w', newline = '')
 	try:
 		writer = csv.writer(f)
@@ -133,12 +134,14 @@ def write_to_file_freq_of_mentions(name, mentions):
 		f.close()
 
 def get_info_of_mentons(user_name, number_of_tweets, cwd):
-	if(os.getcwd() != cwd):
-		os.chdir(cwd)
+	newCwd = cwd + '\\' + user_name
+	if(os.getcwd() != newCwd):
+		os.mkdir(newCwd)
+		os.chdir(newCwd)
 
 	mentions = []
 
-	mentions = get_mentions(number_of_tweets, user_name)
+	mentions = get_mentions(number_of_tweets, user_name, newCwd)
 	print('Got Mentions')
 	write_to_file_freq_of_mentions(user_name, mentions)
 	print('Created Unsorted File')
@@ -154,7 +157,7 @@ def main(argv):
 	mentions = []
 	best_friends = []
 
-	mentions = get_mentions(number_of_tweets, user_name)
+	mentions = get_mentions(number_of_tweets, user_name, cwd)
 	print('Got Mentions')
 	write_to_file_freq_of_mentions(user_name, mentions)
 	print('Created Unsorted File')
