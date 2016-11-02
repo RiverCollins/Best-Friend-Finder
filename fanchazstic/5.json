@@ -1,0 +1,383 @@
+{
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Mon Oct 31 23:49:07 +0000 2016",
+    "entities": {
+        "hashtags": [],
+        "media": [
+            {
+                "display_url": "pic.twitter.com/hYSukT8HDK",
+                "expanded_url": "https://twitter.com/MKBHD/status/793204300340166656/photo/1",
+                "id": 793204286717063168,
+                "id_str": "793204286717063168",
+                "indices": [
+                    29,
+                    52
+                ],
+                "media_url": "http://pbs.twimg.com/tweet_video_thumb/CwIHGKAWcAA5qBQ.jpg",
+                "media_url_https": "https://pbs.twimg.com/tweet_video_thumb/CwIHGKAWcAA5qBQ.jpg",
+                "sizes": {
+                    "large": {
+                        "h": 398,
+                        "resize": "fit",
+                        "w": 500
+                    },
+                    "medium": {
+                        "h": 398,
+                        "resize": "fit",
+                        "w": 500
+                    },
+                    "small": {
+                        "h": 271,
+                        "resize": "fit",
+                        "w": 340
+                    },
+                    "thumb": {
+                        "h": 150,
+                        "resize": "crop",
+                        "w": 150
+                    }
+                },
+                "source_status_id": 793204300340166656,
+                "source_status_id_str": "793204300340166656",
+                "source_user_id": 29873662,
+                "source_user_id_str": "29873662",
+                "type": "photo",
+                "url": "https://t.co/hYSukT8HDK"
+            }
+        ],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": [
+            {
+                "id": 29873662,
+                "id_str": "29873662",
+                "indices": [
+                    3,
+                    9
+                ],
+                "name": "Marques Brownlee",
+                "screen_name": "MKBHD"
+            }
+        ]
+    },
+    "extended_entities": {
+        "media": [
+            {
+                "display_url": "pic.twitter.com/hYSukT8HDK",
+                "expanded_url": "https://twitter.com/MKBHD/status/793204300340166656/photo/1",
+                "id": 793204286717063168,
+                "id_str": "793204286717063168",
+                "indices": [
+                    29,
+                    52
+                ],
+                "media_url": "http://pbs.twimg.com/tweet_video_thumb/CwIHGKAWcAA5qBQ.jpg",
+                "media_url_https": "https://pbs.twimg.com/tweet_video_thumb/CwIHGKAWcAA5qBQ.jpg",
+                "sizes": {
+                    "large": {
+                        "h": 398,
+                        "resize": "fit",
+                        "w": 500
+                    },
+                    "medium": {
+                        "h": 398,
+                        "resize": "fit",
+                        "w": 500
+                    },
+                    "small": {
+                        "h": 271,
+                        "resize": "fit",
+                        "w": 340
+                    },
+                    "thumb": {
+                        "h": 150,
+                        "resize": "crop",
+                        "w": 150
+                    }
+                },
+                "source_status_id": 793204300340166656,
+                "source_status_id_str": "793204300340166656",
+                "source_user_id": 29873662,
+                "source_user_id_str": "29873662",
+                "type": "animated_gif",
+                "url": "https://t.co/hYSukT8HDK",
+                "video_info": {
+                    "aspect_ratio": [
+                        250,
+                        199
+                    ],
+                    "variants": [
+                        {
+                            "bitrate": 0,
+                            "content_type": "video/mp4",
+                            "url": "https://pbs.twimg.com/tweet_video/CwIHGKAWcAA5qBQ.mp4"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "favorite_count": 0,
+    "favorited": false,
+    "geo": null,
+    "id": 793238401336025089,
+    "id_str": "793238401336025089",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "en",
+    "place": null,
+    "possibly_sensitive": false,
+    "retweet_count": 731,
+    "retweeted": false,
+    "retweeted_status": {
+        "contributors": null,
+        "coordinates": null,
+        "created_at": "Mon Oct 31 21:33:36 +0000 2016",
+        "entities": {
+            "hashtags": [],
+            "media": [
+                {
+                    "display_url": "pic.twitter.com/hYSukT8HDK",
+                    "expanded_url": "https://twitter.com/MKBHD/status/793204300340166656/photo/1",
+                    "id": 793204286717063168,
+                    "id_str": "793204286717063168",
+                    "indices": [
+                        18,
+                        41
+                    ],
+                    "media_url": "http://pbs.twimg.com/tweet_video_thumb/CwIHGKAWcAA5qBQ.jpg",
+                    "media_url_https": "https://pbs.twimg.com/tweet_video_thumb/CwIHGKAWcAA5qBQ.jpg",
+                    "sizes": {
+                        "large": {
+                            "h": 398,
+                            "resize": "fit",
+                            "w": 500
+                        },
+                        "medium": {
+                            "h": 398,
+                            "resize": "fit",
+                            "w": 500
+                        },
+                        "small": {
+                            "h": 271,
+                            "resize": "fit",
+                            "w": 340
+                        },
+                        "thumb": {
+                            "h": 150,
+                            "resize": "crop",
+                            "w": 150
+                        }
+                    },
+                    "type": "photo",
+                    "url": "https://t.co/hYSukT8HDK"
+                }
+            ],
+            "symbols": [],
+            "urls": [],
+            "user_mentions": []
+        },
+        "extended_entities": {
+            "media": [
+                {
+                    "display_url": "pic.twitter.com/hYSukT8HDK",
+                    "expanded_url": "https://twitter.com/MKBHD/status/793204300340166656/photo/1",
+                    "id": 793204286717063168,
+                    "id_str": "793204286717063168",
+                    "indices": [
+                        18,
+                        41
+                    ],
+                    "media_url": "http://pbs.twimg.com/tweet_video_thumb/CwIHGKAWcAA5qBQ.jpg",
+                    "media_url_https": "https://pbs.twimg.com/tweet_video_thumb/CwIHGKAWcAA5qBQ.jpg",
+                    "sizes": {
+                        "large": {
+                            "h": 398,
+                            "resize": "fit",
+                            "w": 500
+                        },
+                        "medium": {
+                            "h": 398,
+                            "resize": "fit",
+                            "w": 500
+                        },
+                        "small": {
+                            "h": 271,
+                            "resize": "fit",
+                            "w": 340
+                        },
+                        "thumb": {
+                            "h": 150,
+                            "resize": "crop",
+                            "w": 150
+                        }
+                    },
+                    "type": "animated_gif",
+                    "url": "https://t.co/hYSukT8HDK",
+                    "video_info": {
+                        "aspect_ratio": [
+                            250,
+                            199
+                        ],
+                        "variants": [
+                            {
+                                "bitrate": 0,
+                                "content_type": "video/mp4",
+                                "url": "https://pbs.twimg.com/tweet_video/CwIHGKAWcAA5qBQ.mp4"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        "favorite_count": 2888,
+        "favorited": false,
+        "geo": null,
+        "id": 793204300340166656,
+        "id_str": "793204300340166656",
+        "in_reply_to_screen_name": null,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "is_quote_status": false,
+        "lang": "en",
+        "place": null,
+        "possibly_sensitive": false,
+        "retweet_count": 731,
+        "retweeted": false,
+        "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+        "text": "Happy Halloween \ud83d\udc80 https://t.co/hYSukT8HDK",
+        "truncated": false,
+        "user": {
+            "contributors_enabled": false,
+            "created_at": "Thu Apr 09 00:50:00 +0000 2009",
+            "default_profile": false,
+            "default_profile_image": false,
+            "description": "Web Video Producer",
+            "entities": {
+                "description": {
+                    "urls": []
+                },
+                "url": {
+                    "urls": [
+                        {
+                            "display_url": "youtube.com/MKBHD",
+                            "expanded_url": "http://www.youtube.com/MKBHD",
+                            "indices": [
+                                0,
+                                22
+                            ],
+                            "url": "http://t.co/V3ZCRgfY7f"
+                        }
+                    ]
+                }
+            },
+            "favourites_count": 20709,
+            "follow_request_sent": false,
+            "followers_count": 787998,
+            "following": false,
+            "friends_count": 212,
+            "geo_enabled": false,
+            "has_extended_profile": false,
+            "id": 29873662,
+            "id_str": "29873662",
+            "is_translation_enabled": false,
+            "is_translator": false,
+            "lang": "en",
+            "listed_count": 5859,
+            "location": "NYC",
+            "name": "Marques Brownlee",
+            "notifications": false,
+            "profile_background_color": "EDECE9",
+            "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/378800000061582783/2a5ada827f010eeaeda7916e800bc394.png",
+            "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/378800000061582783/2a5ada827f010eeaeda7916e800bc394.png",
+            "profile_background_tile": true,
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/29873662/1462922901",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/681519422171820032/1wdeAsVj_normal.png",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/681519422171820032/1wdeAsVj_normal.png",
+            "profile_link_color": "6C4585",
+            "profile_sidebar_border_color": "000000",
+            "profile_sidebar_fill_color": "C0DFEC",
+            "profile_text_color": "333333",
+            "profile_use_background_image": false,
+            "protected": false,
+            "screen_name": "MKBHD",
+            "statuses_count": 35655,
+            "time_zone": "Eastern Time (US & Canada)",
+            "translator_type": "regular",
+            "url": "http://t.co/V3ZCRgfY7f",
+            "utc_offset": -14400,
+            "verified": true
+        }
+    },
+    "source": "<a href=\"http://mvilla.it/fenix\" rel=\"nofollow\">Fenix for Android</a>",
+    "text": "RT @MKBHD: Happy Halloween \ud83d\udc80 https://t.co/hYSukT8HDK",
+    "truncated": false,
+    "user": {
+        "contributors_enabled": false,
+        "created_at": "Mon Mar 19 17:43:30 +0000 2012",
+        "default_profile": true,
+        "default_profile_image": false,
+        "description": "Our greatest weakness lies in giving up. The most certain way to succeed is always to try just one more time.",
+        "entities": {
+            "description": {
+                "urls": []
+            },
+            "url": {
+                "urls": [
+                    {
+                        "display_url": "chazlakinger.com",
+                        "expanded_url": "http://chazlakinger.com",
+                        "indices": [
+                            0,
+                            23
+                        ],
+                        "url": "https://t.co/2y7BDhiHQn"
+                    }
+                ]
+            }
+        },
+        "favourites_count": 2293,
+        "follow_request_sent": false,
+        "followers_count": 335,
+        "following": true,
+        "friends_count": 87,
+        "geo_enabled": false,
+        "has_extended_profile": true,
+        "id": 529568682,
+        "id_str": "529568682",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": "en",
+        "listed_count": 3,
+        "location": "chaz@chazlakinger.com",
+        "name": "Spooky CH/\\Z",
+        "notifications": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/529568682/1476586241",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/746469709625753600/N36VXoo0_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/746469709625753600/N36VXoo0_normal.jpg",
+        "profile_link_color": "0084B4",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "protected": true,
+        "screen_name": "fanchazstic",
+        "statuses_count": 9366,
+        "time_zone": "Central Time (US & Canada)",
+        "translator_type": "none",
+        "url": "https://t.co/2y7BDhiHQn",
+        "utc_offset": -18000,
+        "verified": false
+    }
+}
