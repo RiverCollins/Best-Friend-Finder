@@ -31,8 +31,13 @@ def make_edge(main, list):
 		graph.add_edge(main, list[index], weight=5)
 
 def draw_graph():
-	pos = nx.spring_layout(graph, scale=2)
+	pos = nx.spring_layout(graph, k = 0.1, iterations=20, scale=2)
 	nx.draw(graph, pos, node_size=200, alpha=0.5, node_color="blue", with_labels=True)
+
+	edge_labels=dict([((u,v,),d['weight'])
+             for u,v,d in graph.edges(data=True)])
+	nx.draw_networkx_edge_labels(graph,pos,edge_labels=edge_labels)
+
 	plot.axis('off')
 	plot.show()
 
@@ -58,7 +63,7 @@ def get_names(name, cwd):
 		reader = csv.reader(fh, delimiter = ',')
 		i = 0
 		for row in reader:
-			if(i >= 4):
+			if(i >= 10):#number of friends here
 				break;
 			top_friends.append(row[0])
 			i = i + 1
