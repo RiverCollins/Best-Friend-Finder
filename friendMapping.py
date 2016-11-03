@@ -92,7 +92,7 @@ def get_mentions(x, name, cwd):
 		tweet = tweet.entities
 		for each in tweet["user_mentions"]:
 			mentions.append(each["screen_name"])
-		time.sleep(5)
+		#time.sleep(5)#-----------------------------------------------------------------------------
 		print(str(i) + ' Got Tweet!')
 		i = i + 1
 	return mentions
@@ -112,12 +112,12 @@ def write_to_file_sorted(name):
 		f.close()
 
 #writes the screen_name and the freq of each name in a csv file
-def write_to_file_freq_of_mentions(name, mentions):
+def write_to_file_freq_of_mentions(name, mentions, cwd):
 	men_freq = []
 	men_freq = freq(mentions)
 	used = []
 	#os.mkdir(name)
-	#os.chdir(name)
+	os.chdir(cwd)
 	f = open(name + '.csv' , 'w', newline = '')
 	try:
 		writer = csv.writer(f)
@@ -143,7 +143,7 @@ def get_info_of_mentons(user_name, number_of_tweets, cwd):
 
 	mentions = get_mentions(number_of_tweets, user_name, newCwd)
 	print('Got Mentions')
-	write_to_file_freq_of_mentions(user_name, mentions)
+	write_to_file_freq_of_mentions(user_name, mentions, cwd)
 	print('Created Unsorted File')
 	write_to_file_sorted(user_name)
 	print('-------------------')
@@ -159,7 +159,7 @@ def main(argv):
 
 	mentions = get_mentions(number_of_tweets, user_name, cwd)
 	print('Got Mentions')
-	write_to_file_freq_of_mentions(user_name, mentions)
+	write_to_file_freq_of_mentions(user_name, mentions, cwd)
 	print('Created Unsorted File')
 	write_to_file_sorted(user_name)
 	best_friends = top_friends(user_name, 10)
@@ -167,6 +167,7 @@ def main(argv):
 
 	for i in range(10):
 		get_info_of_mentons(best_friends[i], number_of_tweets, cwd)
+
 
 
 if __name__ == "__main__":
