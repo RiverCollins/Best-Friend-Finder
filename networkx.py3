@@ -1,7 +1,7 @@
 import os
 import sys
 import csv
-import community
+#import community
 import networkx as nx
 import matplotlib.pyplot as plot
 '''
@@ -65,7 +65,7 @@ def get_weight(name, cwd):
 		reader = csv.reader(fh, delimiter = ',')
 		i = 0
 		for row in reader:
-			if(i >= 10):#number of friends here
+			if(i >= 5):#number of friends here
 				break;
 			weight.append(row[1])
 			i = i + 1
@@ -82,37 +82,44 @@ def get_names(name, cwd):
 		reader = csv.reader(fh, delimiter = ',')
 		i = 0
 		for row in reader:
-			if(i >= 10):#number of friends here
+			if(i >= 5):#number of friends here
 				break;
 			top_friends.append(row[0])
 			i = i + 1
 	return top_friends
 
 def main(argv):
-	user_name = sys.argv[1]
-	os.chdir(user_name)
-	cwd = 1
-	top_names = get_names(user_name, cwd)
-	weight = get_weight(user_name, cwd)
-	main_list = top_names
-	cwd = os.getcwd()
+	HomeDir = os.getcwd()
+	numOfUsers = len(sys.argv)
+	numOfUsers = numOfUsers - 1
 	make_graph()
-	make_node(user_name)
-	make_nodes_from_list(top_names)
-	make_edge(user_name, top_names, weight)
-	
-	#print("test")
 
-	for index in range(len(main_list)):
-		#print(main_list[index])
-		top_names = get_names(main_list[index], cwd)
-		weight = get_weight(main_list[index], cwd)
+	for users in range(numOfUsers):
+		os.chdir(HomeDir)
+		user_name = sys.argv[users + 1]
+		os.chdir(user_name)
+		cwd = 1
+		top_names = get_names(user_name, cwd)
+		weight = get_weight(user_name, cwd)
+		main_list = top_names
+		cwd = os.getcwd()
+		make_node(user_name)
 		make_nodes_from_list(top_names)
-		make_edge(main_list[index], top_names, weight)
+		make_edge(user_name, top_names, weight)
+	
+		#print("test")
+
+		for index in range(len(main_list)):
+			#print(main_list[index])
+			top_names = get_names(main_list[index], cwd)
+			weight = get_weight(main_list[index], cwd)
+			make_nodes_from_list(top_names)
+			make_edge(main_list[index], top_names, weight)
+
+	
 		
 	draw_graph()
 
 
 if __name__ == "__main__":
 	main(sys.argv[1:])
-
