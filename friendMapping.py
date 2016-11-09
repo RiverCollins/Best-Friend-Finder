@@ -5,18 +5,33 @@ import csv
 import time
 import simplejson
 import os
+from datetime import datetime
 from tweepy import OAuthHandler
  
-consumer_key = 'iCzdOYAQPqV1W1N09SAaBKyXP'
-consumer_secret = 'mMuYTfhvvvvs30YzVSTbQJ5yjfaOXEq9MHOpMwsamvIFn2V4h9'
-access_token = '360929924-UMMdXEyGbmECd16c3KnSBSo4LkhFKu7pmaWvu7Ik'
-access_secret = 'EoPotdD97PRMBop3N2uT0XASrzXuZN0EYOsJmil4Rm0Rj'
+consumer_key = 'U22AE3RZIPUInqRwgJnjkHzK1'
+consumer_secret = 'UuMlKnEZQeNb3oOaNmsbqi3eUFGNRYq3SnByS3DkzJ01z8wFgt'
+access_token = '360929924-qzB7eQU04ckewfuD6UiB3oUooT9Lc2dIsfcBeoHH'
+access_secret = 'Y3ZZkTurEdoecMaLrrghf6I6WhUwPTzVTDZUSyWr2IrIh'
  
 auth = OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_secret)
  
 api = tweepy.API(auth)
 
+def is_user_protected(name):
+	for tweet in tweepy.Cursor(api.user_timeline, id = name).items(1):
+		fullTweet = (tweet._json)
+		stuff = fullTweet['user']['protected']
+		if(stuff == 'True'):
+			return True
+	return False
+		
+
+def countdown(t): # in seconds
+    for i in range(t,0,-1):
+        print('Thanks to Twitter Limit on there Api we wait %d seconds\r' % i)
+        sys.stdout.flush()
+        time.sleep(1)
 
 def top_friends(name, num_fri):
 	friends = []
@@ -85,16 +100,24 @@ def get_mentions(x, name, cwd):
 	#print(saveToDir)
 	if(os.path.exists(cwd)!= True):
 		os.mkdir(cwd)
-	for tweet in tweepy.Cursor(api.user_timeline, id = name).items(x):
-		#mentions_name(tweet.entities)
-		fullTweet = (tweet._json)
-		make_json_file(i, fullTweet, cwd)
-		tweet = tweet.entities
-		for each in tweet["user_mentions"]:
-			mentions.append(each["screen_name"])
-		time.sleep(5)
-		print(str(i) + ' Got Tweet!')
-		i = i + 1
+
+	procted = is_user_protected(name)
+
+	if(procted == True):
+		for x in range(10):
+			for i in range(10):
+				mentions.append(x)
+	else:
+		for tweet in tweepy.Cursor(api.user_timeline, id = name).items(x):
+			#mentions_name(tweet.entities)
+			fullTweet = (tweet._json)
+			make_json_file(i, fullTweet, cwd)
+			tweet = tweet.entities
+			for each in tweet["user_mentions"]:
+				mentions.append(each["screen_name"])
+				#time.sleep(5)
+				print(str(i) + ' Got Tweet!')
+				i = i + 1
 	return mentions
 
 
@@ -112,12 +135,15 @@ def write_to_file_sorted(name):
 		f.close()
 
 #writes the screen_name and the freq of each name in a csv file
-def write_to_file_freq_of_mentions(name, mentions):
+def write_to_file_freq_of_mentions(name, mentions, flag):
 	men_freq = []
 	men_freq = freq(mentions)
 	used = []
+
+	if(flag == 1):
+		os.chdir(name)
 	#os.mkdir(name)
-	#os.chdir(name)
+	
 	f = open(name + '.csv' , 'w', newline = '')
 	try:
 		writer = csv.writer(f)
@@ -141,32 +167,42 @@ def get_info_of_mentons(user_name, number_of_tweets, cwd):
 
 	mentions = []
 
+	flag = 0
+
 	mentions = get_mentions(number_of_tweets, user_name, newCwd)
 	print('Got Mentions')
-	write_to_file_freq_of_mentions(user_name, mentions)
+	write_to_file_freq_of_mentions(user_name, mentions, flag)
 	print('Created Unsorted File')
 	write_to_file_sorted(user_name)
 	print('-------------------')
 
 #python friendMapping.py TwitterName numberOfTweetsToGoThrou
 def main(argv):
+	startTime = str(datetime.now())
 	number_of_tweets = int(sys.argv[2])
 	user_name = sys.argv[1]
 	cwd = os.getcwd() + '\\' + user_name
+	flag = 1
 
 	mentions = []
 	best_friends = []
 
 	mentions = get_mentions(number_of_tweets, user_name, cwd)
 	print('Got Mentions')
-	write_to_file_freq_of_mentions(user_name, mentions)
+	write_to_file_freq_of_mentions(user_name, mentions, flag)
+	flag = 0
 	print('Created Unsorted File')
 	write_to_file_sorted(user_name)
 	best_friends = top_friends(user_name, 10)
 	print('-------------------')
 
 	for i in range(10):
+		countdown(120)
 		get_info_of_mentons(best_friends[i], number_of_tweets, cwd)
+
+	endTime = str(datetime.now())
+
+	print("Started at " + startTime + " ended at " + endTime)
 
 
 if __name__ == "__main__":
