@@ -1,32 +1,9 @@
 import os
 import sys
 import csv
-#import community
 import networkx as nx
 import matplotlib.pyplot as plot
-'''
-node_list = [('riv'), ('chaz'), ('Tiley'), ('Ryan')]
 
-graph = nx.Graph()
-
-#add nodes to graph from node listcls
-for index in range(len(node_list)):
-	graph.add_node(node_list[index])
-
-graph.add_edge('riv', 'chaz', weight=3)
-graph.add_edge('riv', 'Tiley', weight=5)
-
-pos = nx.spring_layout(graph)
-
-nx.draw(graph, pos, node_size=200, alpha=0.5, node_color="blue", with_labels=True)
-
-edge_labels=dict([((u,v,),d['weight'])
-             for u,v,d in graph.edges(data=True)])
-nx.draw_networkx_edge_labels(graph,pos,edge_labels=edge_labels)
-
-plot.axis('off')
-plot.show()
-'''
 def make_edge(main, list, num):
 	for index in range(len(list)):
 		graph.add_edge(main, list[index], weight=num[index], node_color='red')
